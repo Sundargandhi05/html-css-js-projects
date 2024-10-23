@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+.bg-container {
+    height: 100vh;
+    background-color: white;
+}
+
+.headingElement {
+    font-weight: bold;
+}
+
+.button1 {
+    border-radius: 15px;
+    height: 80px;
+    width: 80px;
+    background-color: #e0e0e0;
+    border-width: 3px;
+}
+
+.button2 {
+    border-radius: 15px;
+    height: 80px;
+    width: 80px;
+    background-color: #6fcf97;
+    border-width: 3px;
+}
+
+.button3 {
+    border-radius: 15px;
+    height: 80px;
+    width: 80px;
+    background-color: #56ccf2;
+    border-width: 3px;
+}
+
+.button4 {
+    border-radius: 10px;
+    height: 80px;
+    width: 80px;
+    background-color: #bb6bd9;
+    border-width: 3px;
+}
+
+.paragraph-elemnt {
+    background-color: #222222;
+    width: 100%;
+    height: 50px;
+    border-radius: 10px;
+    text-align: center;
+    padding: 10px;
+    color: white;
+    font-family: "Open Sans";
+    font-size: 20px;
+    font-weight: bold;
+
+}
+
+.para2 {
+    font-family: "Open Sans";
+}
+
+.span-element {
+    color: white;
+}

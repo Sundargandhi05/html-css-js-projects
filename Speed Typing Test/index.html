@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous" />
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-12 p-3" id="speedTypingTest">
+                <h1 class="main-heading">Speed </br> Typing Test</h1>
+                <p class="mt-4 para">On your fingers lets set Go!</p>
+                <div class="d-flex flex-row p-3 image">
+                    <img src="https://assets.ccbp.in/frontend/dynamic-webapps/clock-img.png">
+                    <p class="pl-3 number pb-3 pr-1" id="timer">0</p>
+                    <p class="seconds pt-4">seconds</p>
+                </div>
+                <div class="in-container">
+                    <p class="in-para" id="quoteDisplay">Do not give your attention</br>to what others do or fail to </br> do; give it to what you do or </br> fail to do.</p>
+                    <textarea type="text" id="quoteInput" cols="40" rows="6" placeholder="type here!!!"></textarea>
+                </div>
+                <div class="text-center text-none mt-5" id="spinner">
+                    <div class="d-flex flex-row justify-content-center">
+                        <div class="spinner-border" role="status">
+                            <span class="sr-only">Loading...</span>
+                        </div>
+                    </div>
+                </div>
+                <p class="p-3 success-msg-para" id="result"></p>
+                <div class="p-3">
+                    <button type="submit" id="submitBtn" class="submitButton mr-4">Submit</button>
+                    <button type="submit" id="resetBtn" class="restButton">Reset</button>
+                </div>
+            </div>
+        </div>
+    </div> 
+    <script src="script.js"></script>
+</body>
+
+</html>

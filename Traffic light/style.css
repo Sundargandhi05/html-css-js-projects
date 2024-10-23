@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+.container {
+    background-color: #86d2f2;
+    height: 100vh;
+    text-align: center;
+}
+
+.mainHeading {
+    color: #1f1d41;
+    font-weight: bold;
+}
+
+.signalElement {
+    padding-top: 40px;
+}
+
+
+.button1 {
+    background-color: #1f1d41;
+    width: 80px;
+    color: #ffffff;
+    border-radius: 10px;
+    margin-bottom: 33px;
+    padding: 6px;
+}
+
+.button2 {
+    background-color: #1f1d41;
+    width: 80px;
+    color: #ffffff;
+    border-radius: 10px;
+    margin-bottom: 33px;
+    padding: 6px;
+}
+
+.button3 {
+    background-color: #1f1d41;
+    width: 80px;
+    color: #ffffff;
+    border-radius: 10px;
+    padding: 6px;
+}
+
+
+
+
+.trafficLightBoard {
+    height: 240px;
+    width: 88px;
+    background-color: #1f1d41;
+    border-radius: 35px;
+    padding-left: 28px;
+    margin-top: 40px;
+}
+
+.redSignal {
+    background-color: #4b5069;
+    height: 38px;
+    width: 38px;
+    border-radius: 50%;
+    margin-bottom: 34px;
+    margin-top: 30px;
+}
+
+.yellowSignal {
+    background-color: #4b5069;
+    height: 38px;
+    width: 38px;
+    border-radius: 50%;
+    margin-bottom: 34px;
+}
+
+.greenSignal {
+    background-color: #4b5069;
+    height: 38px;
+    width: 38px;
+    border-radius: 50%;
+    margin-bottom: 34px;
+}
